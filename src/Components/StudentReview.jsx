@@ -1,4 +1,4 @@
-function StudentReview() {
+const StudentReview = () => {
   return (
     <div className="p-2">
       <i
@@ -11,5 +11,5 @@ function StudentReview() {
       ></i>
     </div>
   );
-}
+};
 export default StudentReview;

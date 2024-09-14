@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 
-function Student(props) {
+const Student = (props) => {
   return (
     <div className="col-4 p-1">
       <div className="row border">
@@ -16,6 +16,6 @@ function Student(props) {
       </div>
     </div>
   );
-}
+};
 
 export default Student;

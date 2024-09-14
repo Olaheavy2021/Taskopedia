@@ -1,13 +1,13 @@
 import logo from "../images/react.png";
 
-function Header() {
+const Header = () => {
   return (
     <div>
       <MainHeader />
       <SubHeader />
     </div>
   );
-}
+};
 
 function MainHeader() {
   return (
